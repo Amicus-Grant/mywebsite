@@ -1,34 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device, initial-scale=1" />
-    <title> Amicus Grant </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amicus Grant</title>
     <link rel="icon" type="image/x-icon" href="Images/Amicus.png">
-    <!-- i don't think i will ever need to touch the head again -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header, footer {
+            background-color: #f4f4f4;
+            padding: 1em 0;
+            text-align: center;
+        }
+        main {
+            padding: 1em;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1, h2, h3 {
+            color: #0056b3;
+        }
+        h1 {
+            margin-bottom: 0.5em;
+        }
+        h2, h3 {
+            margin-top: 1.5em;
+        }
+        p {
+            margin: 0.5em 0;
+        }
+        .devices, .progress {
+            margin-left: 1em;
+        }
+    </style>
 </head>
 <body>
-    <center> <h1><u>Hello world, I am Amicus Grant</u></h1> </center>
-    <h2><u> About me: </u></h2>
-    <p> I am a beginner developer </p>
-    <h3><u> my devices: </u></h3>
-    <p>MacBook air 13inch 2015<br>
-        my custom pc has ryzen 9 7950x, 32gb ram ddr5 4800MT/s, RTX 4090<br>
-        iPhone 12 pro max 512gb<br>
-        iPad pro 11inch 256gb m1 chip, lost the apple pencil though<br>
-        Apple Watch Ultra <br>
-        apple tv 128GB
-    </p>
-    <br>
-    <h2><u> What am I working on: </u></h2>
-    <p> I am trying to learn new things, nothing really specific </p>
-    <br>
-    <h2><u> learning progress: </u></h2>
-    <p>Blender <font size=5>not done</font></p>
-    <p>python <font size=5>not done</font></p>
-    <p>swift <font size=5>not done</font> </p>
-    <h2><u> project: </u></h2>
-    <p></p>
-    <br>
+    <header>
+        <h1><u>Hello World, I am Amicus Grant</u></h1>
+    </header>
+    <main>
+        <section>
+            <h2><u>About Me</u></h2>
+            <p>I am a beginner developer.</p>
+        </section>
+        <section>
+            <h3><u>My Devices</u></h3>
+            <ul class="devices">
+                <li>MacBook Air 13-inch 2015</li>
+                <li>Custom PC: Ryzen 9 7950X, 32GB RAM DDR5 4800MT/s, RTX 4090</li>
+                <li>iPhone 12 Pro Max 512GB</li>
+                <li>iPad Pro 11-inch 256GB M1 Chip (lost the Apple Pencil)</li>
+                <li>Apple Watch Ultra</li>
+                <li>Apple TV 128GB</li>
+            </ul>
+        </section>
+        <section>
+            <h2><u>What I'm Working On</u></h2>
+            <p>I am trying to learn new things, nothing really specific at the moment.</p>
+        </section>
+        <section>
+            <h2><u>Learning Progress</u></h2>
+            <ul class="progress">
+                <li>Blender: <span style="font-size: 1.2em;">not done</span></li>
+                <li>Python: <span style="font-size: 1.2em;">not done</span></li>
+                <li>Swift: <span style="font-size: 1.2em;">not done</span></li>
+            </ul>
+        </section>
+        <section>
+            <h2><u>Projects</u></h2>
+            <p>Currently, no specific projects.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Amicus Grant. All rights reserved.</p>
+    </footer>
 </body>
 </html>
