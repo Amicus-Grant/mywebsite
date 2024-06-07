@@ -24,6 +24,7 @@
             padding: 1em;
             max-width: 800px;
             margin: 0 auto;
+            text-align: left;
         }
         h1, h2, h3 {
             color: #0056b3;
@@ -58,6 +59,21 @@
         th {
             background-color: #f4f4f4;
         }
+        .contact-links {
+            background-color: #f9f9f9;
+            padding: 1em;
+            border-radius: 8px;
+            margin-top: 1.5em;
+        }
+        .contact-links a {
+            display: block;
+            margin-bottom: 0.5em;
+            color: #0056b3;
+            text-decoration: none;
+        }
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -65,11 +81,11 @@
         <h1><u>Hello World,<br>I am Amicus Grant</u></h1>
     </header>
     <main>
-        <section>
+        <section id="about">
             <h2><u>About Me</u></h2>
             <p>I'm a beginner developer with a passion for XR, VR, and AR.<br>I'm currently learning graphic development to pursue a career as an AR/VR Graphics Engineer.</p>
         </section>
-        <section>
+        <section id="devices">
             <h3><u>My Devices</u></h3>
             <ul class="devices">
                 <li>MacBook Air 13-inch 2015</li>
@@ -80,11 +96,11 @@
                 <li>Apple TV 128GB</li>
             </ul>
         </section>
-        <section>
+        <section id="work">
             <h2><u>What I'm Working On</u></h2>
             <p>I am trying to learn new things, nothing really specific at the moment.</p>
         </section>
-        <section class="box">
+        <section id="progress" class="box">
             <h2><u>Learning Progress</u></h2>
             <table>
                 <tr>
@@ -109,10 +125,11 @@
                 </tr>
             </table>
         </section>
-        <section>
+        <section id="projects">
             <h2><u>Projects</u></h2>
             <p>Currently, no specific projects.</p>
         </section>
+        
     </main>
     <footer>
         <p>&copy; 2024 Amicus Grant. All rights reserved.</p>
