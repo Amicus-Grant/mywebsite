@@ -12,9 +12,11 @@
             margin: 0;
             padding: 0;
             color: #333;
+            background-color: #ffffff;
         }
         header, footer {
             background-color: #f4f4f4;
+            color: #333;
             padding: 1em 0;
             text-align: center;
         }
@@ -37,6 +39,24 @@
         }
         .devices, .progress {
             margin-left: 1em;
+        }
+        .box {
+            padding: 0em;
+            margin: 1.5em 0;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5em 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 0.5em;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
         }
     </style>
 </head>
@@ -64,14 +84,30 @@
             <h2><u>What I'm Working On</u></h2>
             <p>I am trying to learn new things, nothing really specific at the moment.</p>
         </section>
-        <section>
+        <section class="box">
             <h2><u>Learning Progress</u></h2>
-            <ul class="progress">
-                <li>Blender: <span style="font-size: 1.2em;">not done</span></li>
-                <li>Python: <span style="font-size: 1.2em;">not done</span></li>
-                <li>Swift: <span style="font-size: 1.2em;">not done</span></li>
-                <li>C++: <span style="font-size: 1.2em;">not done</span></li>
-            </ul>
+            <table>
+                <tr>
+                    <th>Skill</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Blender</td>
+                    <td><span style="font-size: 1.2em;">not done</span></td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td><span style="font-size: 1.2em;">not done</span></td>
+                </tr>
+                <tr>
+                    <td>Swift</td>
+                    <td><span style="font-size: 1.2em;">not done</span></td>
+                </tr>
+                <tr>
+                    <td>C++</td>
+                    <td><span style="font-size: 1.2em;">not done</span></td>
+                </tr>
+            </table>
         </section>
         <section>
             <h2><u>Projects</u></h2>
